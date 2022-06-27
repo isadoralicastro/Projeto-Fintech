@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff ;
+    align-items: center;
+}
+
+.cabecalho-imagem {
+    display: flex;
+    width: 130px;
+    height: 46px;
+    left: 125px;
+    top: 81px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0 5%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Georama', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-botao-entrar {
+    background-color: #B2C53E;
+    width: 88px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-top: -10px;
+}
+
+.cabecalho-botao-entrar:hover {
+    background-color: #EA4677;
+    cursor: pointer;
+}
+
+
+
+.quadrado-formulario {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 32px;
+    background: #E4C9F1;
+    width: 390px;
+    height: 470px;
+    left: 410px;
+    top: 134px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.titulo-login {
+    font-size: 24px;
+    color: #000000;
+    padding: 50px 0 10px 0;
+    font-family: 'Georama' , sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.titulo-login:after{
+    display: flex;
+    width: 100%;
+    height: 2px;
+    margin-top: 15px;
+}
+
+.subtitulo-login {
+    font-size: 20px;
+    font-family: 'Georama';
+    font-style: italic;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 35%;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.texto-email {
+    color: #000000;
+    font-family: 'Georama';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.texto-senha {
+    color: #000000;
+    font-family: 'Georama';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#email-login {
+    outline: none;
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
+    border-radius: 32px;
+    padding: 10px;    
+    color: #000000;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+#senha-login {
+    outline: none;
+    position: relative;
+    border-radius: 8px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
+    border-radius: 32px;
+    padding: 10px;
+    color: #000000;
+    padding-right: 100px;
+    font-size: 16px;
+    margin-top: 5px;
+    
+}
+
+.link-senha {
+    width: 165px;
+    height: 32px;
+    left: 1000px;
+    top: 576px;
+    font-family: 'Georama';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    margin-left: 65px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.link-cadastro {
+    font-family: 'Georama';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.manter-logado {
+    width: 155px;
+    height: 17px;
+    margin-left: -58px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.lembrar-de-mim {
+    color: #000000;
+    font-family: 'Georama';
+    font-weight: 400;
+    margin-left: -58px;
+}
+
+
+.botao-login {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Georama';
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.forma-organica {
+    position: absolute;
+    width: 400px;
+    height: 390px;
+    transform: rotate(-147.42deg);
+    margin-left: 650px;
+    margin-top: -30px;
+    
+}
+
+.forma-organica-rosa {
+    position: absolute;
+    width: 466px;
+    height: 308px;
+    transform: rotate(-147.42deg);
+    margin-left: 200px;
+    margin-top: 200px;
+    
+}
+

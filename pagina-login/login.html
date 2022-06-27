@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Um serviço de organização finceira que vai facilitar seus planos!">
+        <title>Finapp - Login</title>
+        <link rel="stylesheet" type="text/css" href="login-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img  class="cabecalho-imagem" src="logo.png" alt="Logo Finapp">
+            <nav class="cabecalho-menu">
+                <a href="#sobre" class="cabecalho-menu-item">Sobre</a>
+                <a href="#serviços" class="cabecalho-menu-item">Serviços</a>
+                <a href="#pqfinapp" class="cabecalho-menu-item">Por que Finapp?</a><hr size="30">
+                <button a href="login.html" class="cabecalho-botao-entrar">Entrar</button>
+            </nav>
+        </header>
+        
+        <main>
+            <img class="forma-organica" src="organica-amarela.png">
+            <img class="forma-organica-rosa" src="organica-rosa.png">
+            <div class="quadrado-formulario center-block">
+                <div id="login">
+                    <form method="post" action="">
+                        <h1 class="titulo-login">Bom ter você de volta!</h1>
+                        <p class="subtitulo-login">Vamos lá?</p>
+                        <p>
+                            <label class="texto-email" for="email-login">E-mail</label><br>
+                            <input id="email-login" name="email-login" required="required" type="text" placeholder="Ex: tony_42@starkindustries.com">
+                        </p>
+                        <p>
+                            <label class="texto-senha" for="senha-login">Senha</label><br>
+                            <input id="senha-login" name="senha-login" required="required" type="password" placeholder="Senha">  
+                        </p>
+                        <p class="link-senha"><a href="#esqueciasenha">Esqueci minha senha</a></p>
+                        <p> 
+                            <input class="manter-logado" type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                            <label class="lembrar-de-mim" for="manterlogado">Lembrar de mim</label>
+                        </p>
+                        <p> 
+                            <input class="botao-login" type="submit" value="Entrar" /> 
+                        </p>
+                        <p class="link-cadastro">
+                            Ainda não tem conta?
+                            <a href="#paracadastro">Cadastre-se aqui</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </main>
+        </div>
+    </body>
+</html>

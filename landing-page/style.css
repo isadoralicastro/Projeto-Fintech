@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff ;
+}
+
+.cabecalho-imagem {
+    display: flex;
+    width: 130px;
+    height: 46px;
+    left: 125px;
+    top: 61px;
+    cursor: pointer;
+}
+    
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0 5%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Georama', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-botao-entrar {
+    background-color: #B2C53E;
+    width: 88px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-top: -10px;
+
+}
+
+.cabecalho-botao-entrar:hover {
+    background-color: #EA4677;
+    cursor: pointer;
+}
+
+.conteudo {
+    margin-bottom: 20px;
+    border-top: 0.4px solid #000000;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    margin-top: 48px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Georama', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #B2C53E;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #000000;
+}
+
+.preview-imagem {
+    width: 450px;
+    height: 480px;
+    margin-left: -250px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #EA4677;
+    cursor: pointer;
+}
